@@ -12,7 +12,12 @@ ISBN 0-916550-26
 
 ## Other References:
 
-Design with Operatonal Amplifiers and Analog Integrated Circuits, Edition IV - Sergio Franco
-Research Papers: https://www.researchgate.net/
+Design with Operational Amplifiers and Analog Integrated Circuits, Edition IV - Sergio Franco
+
+Research Papers: 
+
+https://www.researchgate.net/
+
+https://ieeexplore.ieee.org/Xplore/
 
 
