@@ -2,7 +2,7 @@
 
 Repository for a R&D project on the principles Li-FI for communication and sharing of data between multiple devices using visible light at SRA, VJTI
 
-![Flow of the Hardware](https://github.com/laukik-hase/Li-FI/References/Flow.jpg)
+![Flow of the Hardware](https://github.com/laukik-hase/Li-Fi/blob/master/References/Flow.jpg)
 
 
 ### Note: 
