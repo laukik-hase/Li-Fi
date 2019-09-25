@@ -14,10 +14,21 @@ ISBN 0-916550-26
 
 Design with Operational Amplifiers and Analog Integrated Circuits, Edition IV - Sergio Franco
 
-Research Papers: 
+###### Research Papers: 
 
 https://www.researchgate.net/
 
 https://ieeexplore.ieee.org/Xplore/
+
+###### Keywords:
+
+Li-Fi (Light-Fidelity)
+
+VLC (Visible Light Communication)
+
+LED (Light Emiiting Diode)
+
+Photdiodes
+
 
 
