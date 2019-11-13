@@ -1,6 +1,7 @@
+import easygui
 import base64
 import serial
-ser = serial.Serial("/dev/ttyUSB1",1200,timeout=0)
+ser = serial.Serial("/dev/ttyUSB1",2000000,timeout=0)
 y=""
 while 1:
 	if ser.inWaiting():
@@ -10,8 +11,8 @@ while 1:
 		y+=x
 		print(x)
 		x=""
-	
-file = open("img.png","wb")
+filename = easygui.filesavebox()	
+file = open(filename,"wb")
 file.write(y.decode('base64'))
 file.close()
 ser.close()
