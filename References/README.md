@@ -28,7 +28,7 @@ VLC (Visible Light Communication)
 
 LED (Light Emiiting Diode)
 
-Photdiodes
+Photodiodes
 
 
 
