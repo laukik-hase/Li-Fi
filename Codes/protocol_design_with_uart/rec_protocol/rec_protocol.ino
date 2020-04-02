@@ -28,8 +28,8 @@ SoftwareSerial Serial2(0, 2); // define the soft serial port as Serial2, D3 as R
 
 void setup()
 {
-  Serial2.begin(9600);
-  Serial.begin(9600);
+  Serial2.begin(4800);
+  Serial.begin(4800);
   text = "";
 }
 
@@ -78,15 +78,19 @@ void loop()
         for (int i = 0; i < ( SIZE + INIT ); i++)
         {
           CHECK += uart[i]; //sum on the receiving side
+//          /Serial.println(uart[i], HEX);
           uart[i] = 0;      // reset pulse
         }
 
+//        /Serial.println(CHECK, HEX);
+//        /Serial.println(uart[SIZE + INIT], HEX);
         if (CHECK == uart[SIZE + INIT])
         {
 
           // data storage
 
           text += packet;
+//          /Serial.println(packet);
 
           // acknowledge
 
@@ -103,8 +107,8 @@ void loop()
     // end
 
     else if (uart[0] == STOP) {
-
-      Serial.println(text);
+      
+                Serial.println(text);
     }
 
   }

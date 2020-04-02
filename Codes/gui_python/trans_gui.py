@@ -5,8 +5,8 @@ ser = serial.Serial("/dev/ttyUSB0",2000000,timeout=0)
 filename = easygui.fileopenbox()
 with open(filename,"rb") as imgfile:
 	str1 = base64.b64encode(imgfile.read())
-	ser.write(str1);
+	ser.write(str1)
 	print(str1)
-	ser.write("~");
+	ser.write("~")
 
 ser.close()
